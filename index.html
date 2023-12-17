@@ -465,7 +465,7 @@ n<!-- line 80: HP website link-->
           var nameElement = document.createElement('div');
           nameElement.className = 'name-element'; 
           nameElement.textContent = skills[i][0];
-	  nameElement.style.marginTop = '5px';
+	  nameElement.style.marginTop = '3px';
           _i.className = skills[i][1] + ' fa-1xl'; // fa-1xl is the size of the icon
           if (skills[i].length >= 3)
           {
@@ -476,7 +476,7 @@ n<!-- line 80: HP website link-->
             }
             else if (skills[i][3] == 'img_url')
             {
-              _i.innerHTML = '<img src="' + skills[i][2] + '" height="35" width="35" />';
+              _i.innerHTML = '<img src="' + skills[i][2] + '" height="27" width="27" />';
             }
           }
         td.appendChild(_i);
@@ -486,37 +486,6 @@ n<!-- line 80: HP website link-->
         
     }
 
-
-    // if (window.innerWidth < 500)
-    // {
-    //   table_size = 2;
-    // }
-
-    
-    // for (var i = 0; i < table_size; i++)
-    // {
-    //     var tr = document.createElement('tr');
-    //     for (var j = 0; j < table_size; j++)
-    //     {
-    //       var td = document.createElement('td');
-    //         var _i = document.createElement('i');
-    //         _i.className = skills[i*table_size + j][1] + ' fa-2xl'; // fa-2xl is the size of the icon
-    //         if (skills[i*table_size + j].length >= 3)
-    //         {
-    //           if (skills[i*table_size + j][3] == 'append_as_text')
-    //           {
-    //             _i.innerHTML = skills[i*table_size + j][2];
-    //           }
-    //           else if (skills[i*table_size + j][3] == 'img_url')
-    //           {
-    //             _i.innerHTML = '<img src="' + skills[i*table_size + j][2] + '" height="27" width="27" />';
-    //           }
-    //         }
-    //       td.appendChild(_i);
-    //       tr.appendChild(td);
-    //     }
-    //     document.getElementById('skills_table').appendChild(tr);
-    // }
 </script>
 
 </html>

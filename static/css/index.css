@@ -22,7 +22,7 @@ html {
     font-size: 16px;
     line-height: 1.6;
     quotes: "“" "”" "‘" "’";
-    max-width: 1500px; /* Set the maximum width as needed */
+    max-width: 2500px; /* Set the maximum width as needed */
     /* margin: 0 auto;  Center the content on the page */
 }
 

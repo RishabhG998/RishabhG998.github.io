@@ -14,43 +14,7 @@
     
     <link rel="stylesheet" href="static/css/index.css">
 
-    <script src="https://kit.fontawesome.com/90ba02e172.js" crossorigin="anonymous">
-	    body {
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(to bottom, #3498db, #e74c3c);
-            color: white;
-            font-family: 'Arial', sans-serif;
-        }
-
-        .halo {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            pointer-events: none;
-            transform: translate(-50%, -50%);
-            animation: pulse 1s infinite;
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: translate(-50%, -50%) scale(0.8);
-                opacity: 0;
-            }
-            50% {
-                opacity: 0.5;
-            }
-            100% {
-                transform: translate(-50%, -50%) scale(2);
-                opacity: 0;
-            }
-        }
-    </script>
+    <script src="https://kit.fontawesome.com/90ba02e172.js" crossorigin="anonymous"></script>
 
     <!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N000T7Q9Z0"></script>
@@ -65,13 +29,6 @@
 </head>
 
 <body>
-    <script>
-        document.addEventListener('mousemove', (e) => {
-            const halo = document.querySelector('.halo');
-            halo.style.left = `${e.clientX}px`;
-            halo.style.top = `${e.clientY}px`;
-        });
-    </script>
 
     <header class="header container">
         <div class="header__intro">

@@ -5,15 +5,15 @@ html {
 }
 
 * {
-    margin: 0;
+    /* margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-    /* background-color: #f9f5e1; */ 
-    line-height: 1;
+    background-color: #f9f5e1; */ 
+    line-height: 1;  
 
     height: 100vh;
     display: flex;
@@ -41,6 +41,31 @@ html {
 
 ol, ul {
   list-style: none;
+}
+
+.halo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+    }
 }
 
 blockquote, q {

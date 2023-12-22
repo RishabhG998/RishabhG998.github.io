@@ -14,7 +14,7 @@ html {
     box-sizing: border-box;
     background-color: #f9f5e1;
     line-height: 1;
-
+	
     color: #000000;
     /* overflow-x: hidden; */
 
@@ -22,6 +22,8 @@ html {
     font-size: 16px;
     line-height: 1.6;
     quotes: "“" "”" "‘" "’";
+    max-width: 2500px; /* Set the maximum width as needed */
+    /* margin: 0 auto;  Center the content on the page */
 }
 
 .name-element {

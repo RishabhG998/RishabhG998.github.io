@@ -5,23 +5,17 @@ html {
 }
 
 * {
-    /* margin: 0;
+    margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-    background-color: #f9f5e1; */ 
+    background-color: #f9f5e1; 
     line-height: 1;  
-
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	
     background: linear-gradient(to bottom, #3498db, #e74c3c);
-    color: white;
-
 
     color: #000000;
     /* overflow-x: hidden; */

@@ -37,17 +37,6 @@ ol, ul {
   list-style: none;
 }
 
-.halo {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    animation: pulse 1s infinite;
-}
-
 blockquote, q {
   quotes: none;
 }

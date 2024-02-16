@@ -108,6 +108,12 @@ a.no-highlight:hover {
 .list-unstyled {
     list-style-type: none;
 }
+
+.highlight {
+    background-color: yellow; /* or any other color you prefer */
+    padding: 2px 4px; /* adjust padding as needed */
+}
+
 .list-inline {
     display: flex;
 }
